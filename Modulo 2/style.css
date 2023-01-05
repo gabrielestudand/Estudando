@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*
+Em html é id = em css é #
+em html é classe = em css é ponto
+
+*/
+
+body{
+   
+   
+}
+
+h1#principal{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:chocolate;
+text-align: center;
+
+}
+
+.p{
+text-align: center;
+
+}
+.pp{
+text-align: center;
+
+}
+.subtitulos{
+text-align: center;
+color: cadetblue;
+
+}
+
+.div{
+background-color: cadetblue;
+text-align: center;
+height: 100px;
+width: 100px;
+border: solid black;
+display: inline-block;
+}
+
+#id{
+    background-color: cadetblue;
+text-align: center;
+height: 100px;
+width: 100px;
+border: solid black;
+display: inline-block;
+
+}
+
+#id:hover{
+background-color: yellow;
+
+
+}
+
+p{
+
+}
+
+.ppp{
+    text-decoration: none;
+    
+    
+
+}
+
+.ppp:hover{
+    color: black;
+
+
+}
+
+.ppp:active{
+ color: red;
+
+}
+
+#op >p {
+display: none;
+
+}
+
+#op:hover >p {
+    display: block;
+}
+
+pre{
+    font-size: 17px
+
+}
+
+.ft{
+height: 300px;
+width: 400px;
+}
+
+#teste{
+background-color:bisque;
+height: 39px;
+width: 107px;
+border-width: 4px;
+border-style: solid;
+border-color: #56b393;
+margin: auto;
+padding: 12px 10px 10px 19px;
+}
+
+#link{
+background-color: aliceblue;
+text-decoration: none;
+
+font-size: 20;
+margin: auto;
+border: #56b393 solid 4px;
+padding: 10px 10px 10px 10px;
+
+
+}
+
+#link:hover{
+background-color: rgb(230, 238, 245);
+outline-color: aqua;
+outline-width: 10px;
+outline-style: solid;
+}
+
+#imgg{
+padding-left:  300px;
+
+}
+
+#opl{
+    border: 30px solid black;
+    padding: 15px;
+    border-image-source: url(Fotos/aa.png);
+    border-image-slice: 16;
+    border-image-repeat: repeat;
+
+
+}
+
+
+
+
+

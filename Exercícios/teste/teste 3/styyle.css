@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 212, 212);
+    
+   
+}
+
+img{
+    width: 100%;
+}
+
+
+article{
+    background-color: rgb(255, 255, 255);
+    margin-right: 200px;
+    margin-left: 200px;
+    
+    
+    
+}
+
+aside{
+
+    float: right ;
+    background-color: white;
+    width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+    
+    
+    
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(224, 224, 224);
+    
+}
